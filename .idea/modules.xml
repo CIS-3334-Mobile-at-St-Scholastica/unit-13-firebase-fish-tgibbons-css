@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-13-firebase-fish-tgibbons-css.iml" filepath="$PROJECT_DIR$/unit-13-firebase-fish-tgibbons-css.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/unit-13-firebase-fish-tgibbons-css.iml" filepath="$PROJECT_DIR$/.idea/unit-13-firebase-fish-tgibbons-css.iml" />
-      <module fileurl="file://C:\Users\tgibbons\Documents\Android\unit-13-firebase-fish-tgibbons-css\unit-13-firebase-fish-tgibbons-css.iml" filepath="C:\Users\tgibbons\Documents\Android\unit-13-firebase-fish-tgibbons-css\unit-13-firebase-fish-tgibbons-css.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/Android/unit-13-firebase-fish-tgibbons-css/unit-13-firebase-fish-tgibbons-css.iml" filepath="$USER_HOME$/Documents/Android/unit-13-firebase-fish-tgibbons-css/unit-13-firebase-fish-tgibbons-css.iml" />
     </modules>
   </component>
 </project>
