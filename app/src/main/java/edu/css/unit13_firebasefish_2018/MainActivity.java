@@ -10,10 +10,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.ValueEventListener;
+//import com.google.firebase.database.DataSnapshot;
+//import com.google.firebase.database.DatabaseError;
+//import com.google.firebase.database.DatabaseReference;
+//import com.google.firebase.database.ValueEventListener;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayAdapter<Fish> fishAdapter;
     List<Fish> fishList;
     FishFirebaseData fishDataSource;
-    DatabaseReference myFishDbRef;
+//    DatabaseReference myFishDbRef;
     int positionSelected;
     Fish fishSelected;
 
@@ -43,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupFirebaseDataChange() {
         fishDataSource = new FishFirebaseData();
+/*
         myFishDbRef = fishDataSource.open();
+
         myFishDbRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -59,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("CIS3334", "onCancelled: ");
             }
         });
+*/
     }
 
 
